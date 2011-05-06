@@ -1,2 +1,4 @@
-copyright 2011 Peter Lubell-Doughtie, licensed under the MIT-LICENSE, see file by same name.
+exlucding files 'eval.py' and 'head2pairs.py', copyright 2011 Peter Lubell-Doughtie, licensed under the BSD LICENSE, see file LICENSE.
 
+Requires bitpar, http://www.ims.uni-stuttgart.de/tcl/SOFTWARE/BitPar.html
+Requires WSJ treebank corpus.
