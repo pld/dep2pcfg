@@ -1,4 +1,24 @@
-exlucding files 'eval.py' and 'head2pairs.py', copyright 2011 Peter Lubell-Doughtie, licensed under the BSD LICENSE, see file LICENSE.
+Usage
+----
+
+1) Generate all possible dependencies from a treebank grammar (such as the Penn Tree Bank)
+
+Leads a file formatted as e.g.:
+ROOT NNP
+NNP NNP
+NNP NNP
+NNP VBZ
+...
+
+2) Run dep2pcfg
+
+$ python dep2pcfg.py -d dependency_grammar.txt
+
+
+License
+----
+
+excluding files 'eval.py' and 'head2pairs.py', copyright 2011 Peter Lubell-Doughtie, licensed under the BSD LICENSE, see file LICENSE.
 
 Requires bitpar, http://www.ims.uni-stuttgart.de/tcl/SOFTWARE/BitPar.html
 Requires WSJ treebank corpus.
